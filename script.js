@@ -1,3 +1,4 @@
+document.body.style.zoom = "80%";
 document.addEventListener('DOMContentLoaded', function () {
     var botao = document.getElementsByClassName('botao')[0];
     var add = document.getElementById('add');
