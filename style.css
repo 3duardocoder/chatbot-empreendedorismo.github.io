@@ -7,7 +7,10 @@ body {
     padding: 0;
     box-sizing: border-box;
     display: inline;
+    transform: scale(0.8);
+    transform-origin: 0 0;
 }
+
 
 /* header */
 #barra {
@@ -134,7 +137,7 @@ body {
 
 #ola {
     margin-left: 0px;
-    
+
 }
 
 .texto p {
@@ -207,10 +210,16 @@ iframe {
 @media (max-width: 1570px) {
     #borda {
         visibility: hidden;
+        display: none;
     }
 
     .texto {
         width: 100%;
+    }
+}
+@media (max-width: 900px){
+    #menu{
+        display: none;
     }
 }
 
@@ -227,8 +236,9 @@ iframe {
     width: 100%;
     height: fit-content;
     display: inline;
-    
+
 }
+
 #h2 {
     width: 100%;
     height: 200px;
@@ -245,8 +255,8 @@ iframe {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 2px rgb(8, 11, 51);
 }
-  
-  
+
+
 .sobre {
     margin-left: 50px;
     margin-right: 50px;
@@ -299,9 +309,10 @@ iframe {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 2px rgb(8, 11, 51);
 }
-#ajust{
+
+#ajust {
     display: flex;
-  justify-content: center;
+    justify-content: center;
     width: 100%;
 
 }
@@ -347,10 +358,12 @@ iframe {
     width: 200px;
     height: 200px;
 }
-.integra p{
+
+.integra p {
     font-size: 30px;
     color: white;
 }
+
 #boxf1 {
     margin-left: 100px;
     margin-right: 100px;
@@ -417,13 +430,16 @@ iframe {
     width: 100%;
     border-radius: 50%;
 }
+
 @media (max-width: 1570px) {
-    #cor{
+    #cor {
         height: auto;
     }
-    #somos{
+
+    #somos {
         height: auto;
     }
+
     #fila1 {
         display: inline;
         margin-top: 0px;
@@ -434,19 +450,23 @@ iframe {
         margin-top: 0px;
 
     }
-    #boxf1{
+
+    #boxf1 {
         margin-top: 0px;
 
     }
-    #boxf2{
+
+    #boxf2 {
         margin-top: 1px;
 
     }
-    #mod1{
+
+    #mod1 {
         margin-top: 0px;
 
     }
-    #mod2{
+
+    #mod2 {
         margin-top: 0px;
 
     }
