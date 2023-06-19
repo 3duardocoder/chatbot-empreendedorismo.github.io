@@ -238,7 +238,7 @@ iframe {
     height: 550px;
 }
 
-@media (max-width: 1114px) {
+@media (max-width: 1100px) {
     #borda {
         visibility: hidden;
         display: none;
