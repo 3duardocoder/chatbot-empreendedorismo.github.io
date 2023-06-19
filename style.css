@@ -513,7 +513,7 @@ iframe {
     border-radius: 50%;
 }
 
-@media (max-width: 1570px) {
+@media (max-width: 1100px) {
     #cor {
         height: auto;
     }
